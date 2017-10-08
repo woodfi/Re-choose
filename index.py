@@ -51,9 +51,9 @@ while again == "y":
     again = ""
     while(again == ""):
         ans = raw_input("Ask another question? (y/n):")
-        if ans == "y" || ans == "Y":
+        if ans == "y" or ans == "Y":
             again = "y"
-        else if ans == "n" || ans == "N":
+        elif ans == "n" or ans == "N":
             again = "n"
         else:
             again = ""
