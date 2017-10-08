@@ -1,2 +1,2 @@
 # Re-choose
-A random response chooser build with python.
+A random response chooser built with python.
