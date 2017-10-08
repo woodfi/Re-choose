@@ -2,9 +2,9 @@
 import sys
 import random
 
-ans = True
+again = "y"
 
-while ans:
+while again == "y":
     question = raw_input("Ask Re-choose a question")
     
     answers = random.randint(1,12)
@@ -47,3 +47,13 @@ while ans:
         
     elif answers == 12:
         print "My sources say they could"
+        
+    again = ""
+    while(again == ""):
+        ans = raw_input("Ask another question? (y/n):")
+        if ans == "y" || ans == "Y":
+            again = "y"
+        else if ans == "n" || ans == "N":
+            again = "n"
+        else:
+            again = ""
