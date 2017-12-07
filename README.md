@@ -1,7 +1,9 @@
 ### Re-Choose
 A random response picker wrote in python.
 
-Download V1.0 - https://github.com/VutonDesign/Re-choose/releases/tag/v1
+```
+git clone https://github.com/vutondesign/Re-choose.git
+```
 
 ----
 
