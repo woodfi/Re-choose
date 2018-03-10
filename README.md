@@ -2,7 +2,7 @@
 A random response picker wrote in python.
 
 ```
-git clone https://github.com/ktrvs/Re-choose.git
+git clone https://github.com/vutondesign/Re-choose.git
 ```
 
 ----
